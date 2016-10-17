@@ -53,35 +53,10 @@ brew install sfnt2woff
 brew install sfnt2woff-zopfli
 brew install woff2
 
-# Install some CTF tools; see https://github.com/ctfs/write-ups.
-brew install aircrack-ng
-brew install bfg
-brew install binutils
-brew install binwalk
-brew install cifer
-brew install dex2jar
-brew install dns2tcp
-brew install fcrackzip
-brew install foremost
-brew install hashpump
-brew install hydra
-brew install john
-brew install knock
-brew install netpbm
-brew install nmap
-brew install pngcheck
-brew install socat
-brew install sqlmap
-brew install tcpflow
-brew install tcpreplay
-brew install tcptrace
-brew install ucspi-tcp # `tcpserver` etc.
-brew install xpdf
-brew install xz
-
 # Install other useful binaries.
 brew install ack
 brew install dark-mode
+
 #brew install exiv2
 brew install git
 brew install git-lfs
@@ -101,5 +76,40 @@ brew install vbindiff
 brew install webkit2png
 brew install zopfli
 
+brew install fzf
+# Install shell extensions
+/usr/local/opt/fzf/install
+
+#MyAdditions
+brew install jq
+brew install awscli
+brew install python
+
+pip install virtualenv
+pip install ipython
+pip install redis
+pip install boto3
+
 # Remove outdated versions from the cellar.
 brew cleanup
+
+#Install brew cask and stuff with it
+brew tap caskroom/cask
+
+brew cask install google-chrome 
+brew cask install google-drive
+brew cask install slack
+brew cask install iterm2
+brew cask install tunnelblick
+brew cask install itsycal
+brew cask install numi
+brew cask install sublime-text 
+brew cask install utorrent
+brew cask install mysqlworkbench
+brew cask install pgadmin3 firefox
+brew cask install magicprefs
+brew cask install sizeup
+brew cask install spotify
+brew cask install docker
+
+
